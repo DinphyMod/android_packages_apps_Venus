@@ -76,14 +76,6 @@
   <string name="mute_nosupport">Kan nie klank afskakel: video nie ondersteun</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">Daar is geen kaart program geïnstalleer om die plek te wys nie.</string>
-  <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">Versterk bas</string>
-  <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D Effek</string>
-  <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Klank effekte</string>
-  <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Prop in oorfone vir hierdie effekte.</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">Maks geselekteerde items vir deel is 300</string>
   <string name="share_dialogue_title">Deel via</string>

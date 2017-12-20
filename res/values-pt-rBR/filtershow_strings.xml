@@ -25,7 +25,7 @@
   <string name="cannot_edit_original">Não é possível editar o original</string>
   <!--  String displayed when showing the original image [CHAR LIMIT=NONE] -->
   <!--  String displayed when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
-  <string name="setting_wallpaper">A definir imagem de fundo</string>
+  <string name="setting_wallpaper">Definindo o papel de parede</string>
   <!--  generic strings -->
   <!--  Text for to display on a download failure [CHAR LIMIT=NONE] -->
   <string name="download_failure">Não foi possível transferir a fotografia. Rede não disponível.</string>
@@ -354,7 +354,7 @@
   <string name="brush_size">Tamanho do pincel</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_title">Filtro personalizado</string>
-  <string name="filtershow_dialog_content">Permite que você crie um filtro.\n\nSelecione foto uma foto que você gosta como um filtro para outras fotos</string>
+  <string name="filtershow_dialog_content">Permite que você crie um filtro.\n\nSelecione uma foto que você gosta como um filtro para outras fotos</string>
   <string name="filtershow_dialog_original_photo">Foto original</string>
   <string name="filtershow_dialog_apply_photo">Cores para aplicar</string>
   <string name="filtershow_dialog_checkbox">Não exibir novamente</string>
@@ -363,11 +363,11 @@
   <string name="delete_before_exit">Excluir o filtro?</string>
   <string name="rename_before_exit">Renomear o filtro</string>
   <string name="filter_name">Nome do filtro</string>
-  <string name="filter_name_notification">Nome não pode estar vazio.</string>
-  <string name="filter_name_duplicate">Este nome já existe, por favor escolha outro.</string>
+  <string name="filter_name_notification">O nome não pode estar em branco.</string>
+  <string name="filter_name_duplicate">Este nome já existe, por favor, escolha outro.</string>
   <string name="watermark_location">Localização</string>
   <string name="watermark_time">Hora</string>
   <string name="watermark_weather">Previsão do tempo</string>
   <string name="watermark_emotions">Emoções</string>
-  <string name="watermark_food">Quero</string>
+  <string name="watermark_food">Comida</string>
 </resources>

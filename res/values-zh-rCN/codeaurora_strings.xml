@@ -80,14 +80,6 @@
   <plurals name="number_of_videos">
     <item quantity="other">%1$d个视频</item>
   </plurals>
-  <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">低音增强</string>
-  <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D 效果</string>
-  <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">音效</string>
-  <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">“插入耳机体验音效”</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">分享选择条目最大值为300</string>
   <string name="share_dialogue_title">分享选择</string>

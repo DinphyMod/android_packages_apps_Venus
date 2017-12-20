@@ -107,6 +107,7 @@
   <string name="select_all">Alles selecteren</string>
   <string name="deselect_all">Alle selecties opheffen</string>
   <string name="slideshow">Diavoorstelling</string>
+  <string name="details">Details</string>
   <string name="details_title">%1$d van %2$d items:</string>
   <string name="close">Sluiten</string>
   <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
@@ -248,7 +249,9 @@
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
   <string name="file_size">Bestandsgrootte</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
+  <string name="maker">Maker</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Flits</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -260,8 +263,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Belichtingstijd</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Handmatig</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -275,7 +280,9 @@
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">Origineel</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
+  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
+  <string name="ffx_instant">Instant</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
   <string name="ffx_bleach">Bleek</string>
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
@@ -283,12 +290,15 @@
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">Z/W</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
+  <string name="ffx_punch">Punch</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">X-proces</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
+  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
+  <string name="ffx_washout_color">Litho</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
   <plurals name="make_albums_available_offline">
     <item quantity="one">Album offline beschikbaar maken.</item>
@@ -358,6 +368,7 @@
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
   <string name="slideshow_dream_name">Diavoorstelling</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
+  <string name="albums">Albums</string>
   <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
   <string name="times">Opnametijden</string>
   <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->
@@ -373,6 +384,7 @@
   <!-- The title of menu item where user can add a new account -->
   <string name="add_account">Account toevoegen</string>
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
+  <string name="folder_camera">Camera</string>
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
   <string name="folder_download">Downloaden</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
@@ -383,6 +395,7 @@
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
   <string name="folder_screenshot">Schermafbeelding</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
+  <string name="help">Hulp</string>
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
   <string name="no_external_storage_title">Geen opslag</string>
   <!-- The message of a dialog showing there is no external storage. [CHAR LIMIT=none] -->
@@ -417,6 +430,10 @@
     <item quantity="other">%1$d items gescand</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d item geselecteerd</item>
+    <item quantity="other">%1$d onderdelen gekozen</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Sorteren...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -438,6 +455,7 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">De camera is uitgeschakeld vanwege het beveiligingsbeleid.</string>
   <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
+  <string name="camera_label">Camera</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Een ogenblik geduld...</string>
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
@@ -503,30 +521,37 @@
   <!-- Settings screen, Picture size title -->
   <string name="pref_camera_picturesize_title">Grootte van foto</string>
   <!-- Settings screen, dialog choice for 13 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_13mp">13M pixels</string>
   <!-- Settings screen, dialog choice for 8 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_8mp">8 megapixels</string>
   <!-- Settings screen, dialog choice for 5 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_5mp">5 megapixel</string>
   <!-- Settings screen, dialog choice for 4 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_4mp">4M pixels</string>
   <!-- Settings screen, dialog choice for 3 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_3mp">3 megapixel</string>
   <!-- Settings screen, dialog choice for 2 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_2mp">2 megapixel</string>
   <!-- Settings screen, dialog choice for 2 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_2mp_wide">2M pixels (16:9)</string>
   <!-- Settings screen, dialog choice for 1.3 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1_3mp">1,3 megapixel</string>
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 megapixel</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Scherpstelmodus</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Automatisch</string>
   <string name="pref_camera_focusmode_entry_infinity">Oneindig</string>
+  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">AUTOMATISCH</string>
   <string name="pref_camera_focusmode_label_infinity">ONEINDIG</string>
+  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -565,6 +590,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automatisch</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Actie</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -603,6 +629,7 @@
   <string name="pref_exposure_label">BELICHTING</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">CAMERA AAN VOORZIJDE</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -625,6 +652,7 @@
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">Kan panorama niet opslaan.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+  <string name="pano_dialog_title">Panorama</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
   <string name="pano_capture_indication">Panorama vastleggen</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
@@ -839,6 +867,7 @@ CHAR LIMIT = NONE] -->
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
   <string name="tab_photos">Foto\'s</string>
   <!-- Title for the albums tab [CHAR LIMIT=25] -->
+  <string name="tab_albums">Albums</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <string name="camera_menu_more_label">MEER OPTIES</string>

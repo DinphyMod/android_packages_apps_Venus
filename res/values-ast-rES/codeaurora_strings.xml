@@ -64,11 +64,6 @@
     <item quantity="one">%1$d videu</item>
     <item quantity="other">%1$d vídeos</item>
   </plurals>
-  <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">Efeutu 3D</string>
-  <!-- The label for the audio effects menu. -->
-  <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <!-- Toast message for share items -->
   <string name="share_dialogue_title">Compartir per</string>
   <!-- When grouping photos by peoples, the label used for photos that don't

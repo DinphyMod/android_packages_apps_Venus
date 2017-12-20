@@ -115,7 +115,9 @@
   <string name="tinyplanet">Planetek</string>
   <!--  Filters buttons -->
   <!--  True Effect button -->
+  <string name="trueScanner">Pravi skener</string>
   <!--  HazeBuster button -->
+  <string name="hazeBuster">Odstranjevanje peg</string>
   <!--  SeeStraight button -->
   <string name="seeStraight">Glejte naravnost</string>
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
@@ -200,7 +202,9 @@
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
   <string name="dc_negative">Negativ</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="blur">Zamegli</string>
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="motion_blur">Hitra megla</string>
   <!--  Label for the Brightness effect  [CHAR LIMIT=20] -->
   <string name="editor_grad_brightness">Svetlost</string>
   <!--  Label for the Contrast filter effect  [CHAR LIMIT=20] -->
@@ -325,6 +329,8 @@
   <string name="fusion_pick_point">Izberi segment</string>
   <string name="fusion_pick_underlay">Izberi podlogo</string>
   <string name="dual_camera_effects">Učinki dvojne kamere</string>
+  <string name="dual_camera_effects_intro">Omogoča uporabo učinkiov, kot so \"Gibanja\" in \"Skica\". Prav tako lahko združite dve fotografiji skupaj za zanimive učinke. Ta funkcija deluje najbolje, ko je glavni predmet na sliki blizu fotoaparata.</string>
+  <string name="dualcam_filter_not_supported">Za to sliko filtri za dvojno kamero niso podprti</string>
   <string name="trueportrait_no_face">Za to fotografijo ni mogoče uporabiti učinka pravi portret. Obraz ni zaznan.</string>
   <string name="trueportrait_edit_intro">Z Touch-Up orodjem, lahko urejate v ospredju in ozadju. S prstom lahko barvete na katerem koli območju v ospredju ali ozadju, ki ste ga zgrešili.</string>
   <string name="do_not_show_again">Ne prikaži ponovno</string>
@@ -334,6 +340,7 @@
   <string name="ok_continue">Nadaljuj</string>
   <string name="frames">Sličic</string>
   <string name="beautify">Polepšaj</string>
+  <string name="dualcam">Dvojna kamera</string>
   <string name="trueportrait">Pravi portret</string>
   <string name="foreground">Ospredje</string>
   <string name="background">Ozadje</string>
@@ -344,6 +351,7 @@
 \n
 \nIzberite fotgrafijo, ki vam je všeč in jo uporabite kot filter za druge fotografije</string>
   <string name="filtershow_dialog_original_photo">Izvirna fotografija</string>
+  <string name="filtershow_dialog_apply_photo">Uporabi barve</string>
   <string name="filtershow_dialog_checkbox">Ne prikaži ponovno</string>
   <string name="filtershow_preset_title">Po meri</string>
   <string name="filtershow_preset_rename">Preimenuj</string>

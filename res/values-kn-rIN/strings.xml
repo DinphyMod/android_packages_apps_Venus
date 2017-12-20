@@ -28,6 +28,7 @@
   <!-- Movie View Start Playing dialog title -->
   <!-- Movie View Start Playing button "Resume from bookmark" -->
   <!-- Displayed in the title of those albums that are being loaded -->
+  <string name="loading">ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
   <!-- Used in a toast message when an image fails to be loaded
@@ -37,8 +38,10 @@
   <!-- Movie View Start Playing button "Beginning" -->
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="crop_save_text">ಸರಿ</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="ok">ಸರಿ</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <!-- Toast/alert that the image is being saved to the SD card -->
@@ -58,9 +61,11 @@
   <!-- Toast/alert after saving wallpaper -->
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+  <string name="cancel">ರದ್ದು</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
   <!-- String indicating more actions are available -->
+  <string name="close">ಮುಚ್ಚಿ</string>
   <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
@@ -72,6 +77,7 @@
   <!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
+  <string name="edit">ಪರಿಷ್ಕರಿಸಿ</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <!-- String used as a title of a progress dialog. The user can
@@ -124,6 +130,7 @@
   <!-- A label describing that the current screen is for the user to pick
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
+  <string name="sync_picasa_albums">ಹೊಸತಾಗಿಸಿ</string>
   <!-- A label on a button. The user clicks this button after he has
          finished selection. [CHAR LIMIT=15] -->
   <!-- String indicating the sequence of currently selected item in the
@@ -155,10 +162,12 @@
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
+  <string name="manual">ಹಸ್ತಚಾಲಿತ</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
+  <string name="unknown">ಅಪರಿಚಿತ</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">ಮೂಲ</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
@@ -224,13 +233,16 @@
   <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->
   <!-- Group by menu item. [CHAR LIMIT=20] -->
   <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
+  <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
   <!-- The title of menu item where user can add a new account -->
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
+  <string name="folder_download">ಡೌನ್‍ಲೋಡ್</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
   <!-- The label for the folder contains pictures that was imported from an
          external camera. [CHAR LIMIT=20]-->
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
+  <string name="folder_screenshot">ತೆರೆಸೆರೆ</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
   <!-- The message of a dialog showing there is no external storage. [CHAR LIMIT=none] -->
@@ -350,6 +362,7 @@
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <!-- Dialog "OK" button. Dismisses dialog. -->
+  <string name="dialog_ok">ಸರಿ</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->

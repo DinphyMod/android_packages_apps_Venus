@@ -32,7 +32,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
   <string name="setp_option_name">Passo</string>
-  <string name="step_option_desc">Personalizar o avanço/retrocesso rápido</string>
+  <string name="step_option_desc">Personalizar a velocidade de avançar e retroceder</string>
   <string name="setp_option_three_second">3 segundos</string>
   <string name="setp_option_six_second">6 segundos</string>
   <string name="loop">"Repetir"</string>
@@ -55,8 +55,8 @@
   <string name="set_buffer_size">Definir o tamanho do buffer</string>
   <string name="set_apn">Selecione a APN preferida</string>
   <string name="setting">Configurações</string>
-  <string name="server_timeout_title">"Tempo de espera do servidor"</string>
-  <string name="server_timeout_message">"Reconectar ao servidor para tocar o vídeo?"</string>
+  <string name="server_timeout_title">"Sem resposta do servidor"</string>
+  <string name="server_timeout_message">"Reconectar ao servidor para reproduzir o vídeo?"</string>
   <string name="videoview_error_text_cannot_connect_retry">"Falha na conexão, tentando reconectar ao %1$d\u2026"</string>
   <string name="media_controller_live">Ao vivo</string>
   <string name="media_controller_playing">Reproduzindo</string>
@@ -74,21 +74,13 @@
   <!-- A label describing to link website [CHAR LIMIT=30] -->
   <string name="more_image">Mais imagens</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
-  <string name="mute_nosupport">Impossivel silenciar: vídeo não compatível</string>
+  <string name="mute_nosupport">Impossível silenciar: vídeo não compatível</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">Não há aplicativo de mapas instalado para mostrar o local.</string>
   <plurals name="number_of_videos">
     <item quantity="one">%1$d video</item>
     <item quantity="other">%1$d videos</item>
   </plurals>
-  <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">Ganho de grave</string>
-  <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">Efeito 3D</string>
-  <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Efeitos de áudio</string>
-  <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Conecte fones de ouvido para utilizar esses efeitos.</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">Máximo de 300 itens para compartilhar</string>
   <string name="share_dialogue_title">Compartilhar através de</string>
@@ -98,7 +90,7 @@
   <!-- The tips of trimming video -->
   <string name="fail_trim">Desculpe, este vídeo não pode ser cortado</string>
   <string name="can_not_trim">Apenas arquivos mp4 e 3gp podem ser cortados</string>
-  <string name="drm_license_info">Informação de licença DRM</string>
+  <string name="drm_license_info">Informação da licença DRM</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Linha de Tempo</string>
   <!-- Albums screen title -->

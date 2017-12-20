@@ -31,18 +31,39 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="next">"Susunod"</string>
+  <string name="previous">"Nakaraan"</string>
+  <string name="buffer_size">Laki ng buffer</string>
+  <string name="apn">Ginustong APN</string>
+  <string name="set_buffer_size">Laki ng buffer ng itinakda</string>
+  <string name="set_apn">Piliin ang gagamiting APN</string>
+  <string name="setting">Mga setting</string>
+  <string name="bookmark_add">"Magdagdag ng bookmark"</string>
+  <string name="bookmark_display">"Ipakita ang mga bookmark"</string>
+  <string name="bookmark_empty">"Walang mga bookmark"</string>
+  <string name="bookmark_exist">"Umiiral na ang bookmark"</string>
+  <string name="bookmark_list">"Mga Bookmark"</string>
+  <string name="bookmark_title">"Pamagat"</string>
+  <string name="bookmark_location">"Lokasyon"</string>
+  <string name="delete_all">"Tanggalin lahat"</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Karagdagang mga imahe</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <!-- The label for the audio effects menu. -->
-  <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <!-- Toast message for share items -->
+  <string name="share_dialogue_title">Ibahagi sa pamamagitan ng</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
          have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Walang mga mukha</string>
   <!-- The tips of trimming video -->
   <!-- Timeline screen title -->
   <!-- Albums screen title -->
+  <string name="albums_title">Mga album</string>
   <!-- Videos screen title -->
+  <string name="videos_title">Mga video</string>
+  <string name="tvEmptyAlbum">Walang mga larawan na matatagpuan</string>
+  <string name="tvEmptyVideos">Walang video na matatagpuan</string>
+  <string name="text_makeup_whiten">Paputiin</string>
+  <string name="truescanner_normal">Normal</string>
+  <string name="seestraight_acts">Tingnan ng Straight</string>
 </resources>

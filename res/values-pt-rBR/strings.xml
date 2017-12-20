@@ -83,10 +83,10 @@
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Definir imagem como</string>
   <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
-  <string name="set_wallpaper">Definir como plano de fundo</string>
+  <string name="set_wallpaper">Definir como papel de parede</string>
   <!-- Toast/alert after saving wallpaper -->
-  <string name="wallpaper">Definindo plano de fundo\u2026</string>
-  <string name="camera_setas_wallpaper">Planos de fundo</string>
+  <string name="wallpaper">Definindo papel de parede\u2026</string>
+  <string name="camera_setas_wallpaper">Papel de Parede</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Excluir</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->

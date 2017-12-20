@@ -106,6 +106,7 @@
   <string name="tinyplanet">Hành tinh nhỏ</string>
   <!--  Filters buttons -->
   <!--  True Effect button -->
+  <string name="trueScanner">Quét Trực tiếp</string>
   <!--  HazeBuster button -->
   <!--  SeeStraight button -->
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
@@ -176,6 +177,7 @@
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">Đen/trắng</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="blackboard">Bảng đen</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
   <string name="posterize">Giảm màu</string>

@@ -48,11 +48,6 @@
   <string name="mute_nosupport">Nuk mund t\'i heqësh zërin : video nuk është e pranueshme</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">Nuk ka asnjë aplikacion hartash të intaluar që të tregojë vendndodhjen.</string>
-  <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">efekt 3D</string>
-  <!-- The label for the audio effects menu. -->
-  <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <!-- Toast message for share items -->
   <string name="share_dialogue_title">Ndaj me anë të</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
